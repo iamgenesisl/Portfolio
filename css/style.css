@@ -92,7 +92,7 @@ header {
     position: relative;
     width: 100%;
     color: rgb(204, 214, 246);
-    font-family: 'Roboto Mono';
+    font-family: 'Roboto Mono', "SF Mono", "Fira Code", "Fira Mono", "Lucida Console", Monaco, monospace;
     counter-reset: item 0;
     z-index: 12;
     pointer-events: auto !important;
@@ -371,7 +371,7 @@ body {
     background: var(--clr-navy);
     color: var(--clr-slate);
     margin: 0;
-    font-family: 'Calibre';
+    font-family: 'Calibre', "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
     font-size: var(--fs-body);
     line-height: 1.6;
 } 
